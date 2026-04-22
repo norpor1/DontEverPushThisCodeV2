@@ -137,7 +137,6 @@ jobs:
         with:
           sarif_file: trivy-results.sarif
           category: trivy
-
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
